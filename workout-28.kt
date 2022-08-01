@@ -203,9 +203,17 @@ println(element)
                                 println(str1!=str2) //false  
                                 }*/ 
 
-                                fun main(args: Array<String>) {  
+                               /* fun main(args: Array<String>) {  
                                     val str1 = buildString { "string value" }  
                                     val str2 = buildString { "string value" }  
                                     println(str1===str2)  
                                     println(str1!==str2)  
                                     }   
+
+                                    fun main(args: Array<String>){
+                                        
+                                    }*/
+
+                                    fun main() {
+                                        println("Hello, world!!!")
+                                    }

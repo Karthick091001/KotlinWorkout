@@ -1,0 +1,497 @@
+// LISTS IN COLLECTION
+
+/*fun main() {
+    val theList = listOf("one", "two", "three", "four")
+    println(theList)
+    
+    val theMutableList = mutableListOf("one", "two", "three", "four")
+    println(theMutableList)
+}*/
+
+/*fun main() {
+    val theList = listOf("one", "two", "three", "four")
+    println(theList.toString())
+}*/
+
+/*fun main() {
+    val ka = listOf("one", "two", "three", "four")
+    
+    val itr = ka.listIterator() 
+    while (itr.hasNext()) {
+        println(itr.next())
+    }
+}*/
+
+/*fun main() {
+    val theList = listOf("one", "two", null, "four", "five")
+    
+    println("Size of the list " + theList.size)
+}*/
+
+/*fun main() {
+   val theList = listOf("one", "tee", "three", "four")
+    
+   if("two" in theList){
+      println(true)
+   }else{
+      println(false)
+   }
+}*/
+
+/*fun main() {
+   val theList = listOf("one", "two", "three", "four")
+
+   if(theList.contains("two")){
+      println(true)
+   }else{
+      println(false)
+   }
+    
+}*/
+
+/*fun main() {
+   val theList = listOf("one", "two", "three", "four")
+    
+   if(theList.isEmpty()){
+      println(true)
+   }else{
+      println(false)
+   }
+}*/
+
+
+/*fun main() {
+   val theList = listOf("one", "two", "three", "four")
+    
+   println("Index of 'two' :  " + theList.indexOf("five"))
+}*/
+
+/*fun main() {
+   val theList = listOf("one", "two", "three", "four")
+
+   println("Element at index position " + theList.get(0))
+}*/
+
+/*fun main() {
+    val firstList = listOf("one", "two", "three")
+    val secondList = listOf("four", "five", "six","seven")
+    val resultList = firstList + secondList
+    
+    println(resultList)
+}*/
+
+/*fun main() {
+    val firstList = listOf("one", "two", "three","four","eight")
+    val secondList = listOf("one", "five", "six","four")
+    val resultList = firstList - secondList
+    
+    println(resultList)
+}*/
+
+
+/*fun main() {
+    var theList = listOf("one", "two", "three", "four", "five","six","seven","eight")
+    var resultList = theList.slice( 2..6)
+    
+    println(resultList)
+}*/
+
+/*fun main() {
+    val theList = listOf("one", "two", null, "four", "five")
+    val resultList = theList.filterNotNull()
+    
+    println(resultList)
+}*/
+
+/*fun main() {
+    val theList = listOf(10, 20, 30, 31, 40, 50, -1, 0)
+    val resultList = theList.filter{ it > 40}
+    
+    println(resultList)
+}*/
+
+/*fun main() {
+    val theList = listOf(10, 20, 30, 31, 40, 50, -1, 0)
+    val resultList = theList.drop(5)
+    
+    println(resultList)
+}*/
+
+
+/*fun main() {
+    val theList = listOf(10, 12, 30, 31, 40, 9, -3, 0)
+    val resultList = theList.groupBy{ it % 5}
+    
+    println(resultList)
+}*/
+
+/*fun main() {
+    val theList = listOf(10, 12, 30, 31, 40, 9, -3, 0)
+    val resultList = theList.map{ it / 3 }
+    
+    println(resultList)
+}*/
+
+/*fun main() {
+    val theList = listOf(10, 12, 30, 31, 40, 9, -3, 0,5,8,3,58,25,10)
+    val resultList = theList.chunked(2)
+    
+    println(resultList)
+}*/
+
+/*fun main() {
+    val theList = listOf(10, 12, 30, 31, 40, 9, -3, 0)
+    val resultList = theList.windowed(3,2)
+    
+    println(resultList)
+}*/
+
+
+/*fun main() {
+    val theList = mutableListOf(10, 20, 30)
+
+    theList.add(40)
+    theList.add(50)
+    println(theList)
+
+    theList.remove(10)
+    theList.remove(30)
+    println(theList)
+}*/
+
+/* Collections SETOF()*/
+
+/*fun main() {
+    val theSet = setOf("one", "two", "three", "four")
+    println(theSet)
+    
+    val theMutableSet = mutableSetOf("one", "two", "three", "four")
+    println(theMutableSet)
+}*/
+
+/*fun main() {
+    val theSet = setOf("one", "two", "three", "four")
+    println(theSet.toString())
+}*/
+
+/*fun main() {
+    val theSet = setOf("one", "two", "three", "four")
+    
+   val itr = theSet.asIterable().iterator()
+    while (itr.hasNext()) {
+        println(itr.next())
+    }
+}*/
+
+/*fun main() {
+   val theSet = setOf("one", "two", "three", "four")
+    
+   for (i in theSet.indices) {
+      println(theSet.elementAt(i))
+   }
+}*/
+
+/*fun main() {
+   val theSet = setOf("one", "two", "three", "four")
+    
+   theSet.forEach { println(it) }
+}*/
+
+/*fun main() {
+    val theSet = setOf("one", "two", null, "four", "five")
+    
+    println("Size of the Set " + theSet.size)
+}*/
+
+/*fun main() {
+   val theSet = setOf("one", "two", "three", "four")
+    
+   if("two" in theSet){
+      println(true)
+   }else{
+      println(false)
+   }
+}*/
+
+/*fun main() {
+   val theSet = setOf("one", "two", "three", "four")
+
+   if(theSet.contains("two")){
+      println(true)
+   }else{
+      println(false)
+   }*/
+
+/*fun main() {
+   val theSet = setOf("one", "two", "three", "four")
+    
+   if(theSet.isEmpty()){
+      println(true)
+   }else{
+      println(false)
+   }
+}*/
+
+/*fun main() {
+   val theSet = setOf("one", "two", "three", "four")
+    
+   println("Index of 'two'  " + theSet.indexOf("two"))
+}*/
+
+/*fun main() {
+   val theSet = setOf("one", "two", "three", "four")
+
+   println("Element at 3rd position " + theSet.elementAt(2))
+}*/
+
+/*fun main() {
+    val firstSet = setOf("one", "two", "three","one")
+    val secondSet = setOf("one", "four", "five", "six")
+    val resultSet = firstSet + secondSet
+    
+    println(resultSet)
+}*/
+
+/*fun main() {
+    val firstSet = setOf("one", "two", "three")
+    val secondSet = setOf("one", "five", "six")
+    val resultSet = firstSet - secondSet
+    
+    println(resultSet)
+}*/
+
+/*fun main() {
+    val theSet = setOf("one", "two", null, "four", "five")
+    val resultSet = theSet.filterNotNull()
+    
+    println(resultSet)
+}*/
+
+/*fun main() {
+    val theSet = setOf(10, 20, 30, 31, 40, 50, -1, 0)
+    var resultSet = theSet.sorted()
+    println(resultSet)
+    
+    resultSet = theSet.sortedDescending()
+    println(resultSet)
+}*/
+
+/*fun main() {
+    val theSet = setOf(10, 20, 30, 31, 40, 50, -1, 0)
+    val resultSet = theSet.filter{ it > 30}
+    
+    println(resultSet)
+}*/
+
+/*fun main() {
+    val theSet = setOf(10, 20, 30, 31, 40, 50, -1, 0)
+    val resultSet = theSet.drop(3)
+    
+    println(resultSet)
+}*/
+
+/*fun main() {
+    val theSet = setOf(10, 12, 30, 31, 40, 9, -3, 0)
+    val resultSet = theSet.groupBy{ it % 3}
+    
+    println(resultSet)
+}*/
+
+/*fun main() {
+    val theSet = setOf(10, 12, 30, 31, 40, 9, -3, 0)
+    val resultSet = theSet.map{ it / 3 }
+    
+    println(resultSet)
+}*/
+
+/*fun main() {
+    val theSet = setOf(10, 12, 30, 31, 40, 9, -3, 0)
+    val resultSet = theSet.chunked(4)
+    
+    println(resultSet)
+}*/
+
+/*fun main() {
+    val theSet = setOf(10, 12, 30, 31, 40, 9, -3, 0)
+    val resultSet = theSet.windowed(3, 2)
+    
+    println(resultSet)
+}*/
+
+//  MAP IN COLLECTION 
+
+/*fun main() {
+    val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+    println(theMap)
+    
+    val theMutableMap = mutableSetOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+    println(theMutableMap)
+}*/
+
+/*fun main() {
+    val theMap = HashMap<String, Int>()
+    
+    theMap["one"] = 1
+    theMap["two"] = 2
+    theMap["three"] = 3
+    theMap["four"] = 4
+    
+    println(theMap)
+}*/
+
+/*fun main() {
+    val theMap = mapOf(Pair("one", 1), Pair("two", 2), Pair("three", 3), Pair("four", 4))
+    println(theMap)
+}*/
+
+/*fun main() {
+    val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4, "five" to 5)
+    
+    println("Entries: " + theMap.entries)
+    println("Keys:" + theMap.keys)
+    println("Values:" + theMap.values)
+}*/
+
+/*fun main() {
+    val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+    println(theMap.toString())
+}*/
+
+/*fun main() {
+    val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+    
+    val itr = theMap.keys.iterator()
+    while (itr.hasNext()) {
+        val key = itr.next()
+        val value = theMap[key]
+        println("${key}=${value}")
+    }
+}*/
+
+/*fun main() {
+   val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+    
+   for ((a, b) in theMap) {
+      println("$a = $b")
+   }
+   
+}*/
+
+/*fun main() {
+   val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+    
+   theMap.forEach { 
+      k, v -> println("Key = $k, Value = $v") 
+   }
+}*/
+
+/*fun main() {
+    val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4, "five" to 5)
+    
+    println("Size of the Map " + theMap.size)
+    println("Size of the Map " + theMap.count())
+}*/
+
+/*fun main() {
+   val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+
+   if(theMap.containsKey("two")){
+      println(true)
+   }else{
+      println(false)
+   }
+}*/
+
+/*fun main(){
+    val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+if(theMap.containsValue(2)){
+      println(true)
+   }else{
+      println(false)
+   } 
+}*/
+
+
+/*fun main() {
+   val theMap = mapOf<String, String>()
+    
+   if(theMap.isEmpty()){
+      println(true)
+   }else{
+      println(false)
+   }
+}*/
+
+/*fun main() {
+    val firstMap = mapOf("one" to 1, "two" to 2, "three" to 3)
+    val secondMap = mapOf("one" to 10, "four" to 4)
+    val resultMap = firstMap + secondMap
+    
+    println(resultMap)
+}*/
+
+/*fun main() {
+    val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4) 
+    val theKeyList = listOf("one", "four")
+    val resultMap = theMap - theKeyList
+    
+    println(resultMap)
+}*/
+
+/*fun main() {
+    val theMap = mutableMapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+    theMap.remove( "two")
+    println(theMap)
+    
+    theMap -= listOf("three")
+    println(theMap)
+}*/
+
+/*fun main() {
+    val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+    var resultMap = theMap.toSortedMap()
+    println(resultMap)
+}*/
+
+/*fun main() {
+    val theMap = mapOf("one" to 1, "two" to 2, "three" to 3, "four" to 4)
+    var resultMap = theMap.filterValues{ it > 2}
+    println(resultMap)
+    
+    resultMap = theMap.filterKeys{ it == "two"}
+    println(resultMap)
+    
+    resultMap = theMap.filter{ it.key == "two" || it.value == 4}
+    println(resultMap)
+    
+}*/
+
+/*fun main() {
+     val theMap = mapOf("one" to 1, "two" to 2, "three" to 3)
+    val resultMap = theMap.map{ (k, v) -> "Key is $k, Value is $v" }
+    
+    println(resultMap)
+}*/
+
+fun main() {
+     val theMap = mutableMapOf("one" to 1, "two" to 2, "three" to 3)
+    
+    theMap.put("four", 4)
+    println(theMap)
+    
+    theMap["five"] = 5
+    println(theMap)
+    
+    theMap.remove("two")
+    println(theMap)
+    
+}
+  
+
+
+
+    
+
+
+
+
